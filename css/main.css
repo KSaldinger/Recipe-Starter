@@ -1,0 +1,185 @@
+/********* BODY *********/
+
+body {
+    background: #DAF7F6;
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3B3B;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/********* HEADER *********/
+
+header {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+header img {
+    margin-right: 16px;
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #F16059;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin:  0px;
+    padding: 40px 0;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 50px 0;
+    overflow: auto;
+}
+
+.image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+.recipe {
+    float: left;
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+/********* TIME SECTION *********/
+
+.time {
+    margin-bottom: 20px;
+    margin-right: 1px;
+    overflow: auto;
+    border: 1px solid #3B3B3B;
+    vertical-align: middle;
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	width: 33.3333%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time img {
+    margin-right: 5px;
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.prep {
+    float: left;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+
+.cook {
+    float: left;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+
+.total {
+    float: left;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+
+/********* GLUTEN FREE COOKIE SECTION *********/
+
+
+#cookies .image {
+    background-image: url(../img/gluten-free-sugar-cookies.jpg);
+    background-size: cover;
+}
+
+
+.recipe h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F16059;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 0;
+}
+
+
+/********* PESTO SECTION *********/
+
+
+#pesto .image {
+    background-image: url(../img/nut-free-pesto.jpg);
+    background-size: cover;
+}
+
+
+/********* COLUMNS SECTION *********/
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 2px;
+    padding-left: 1px;
+    line-height: 20px;
+}
+
+.ingredients ul li {
+    list-style-type: square;
+    padding-left: 1px;
+}
+
+
+.recipe h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F16059;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 7px 0px 7px 16px;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+}
